@@ -15,8 +15,9 @@ function curry(sum) {
     }
 }
 const f = curry(sum);
-console.log(f(1,2,3,4));
-console.log(f(1,2)(3,4));
-console.log(f(1)(2)(3)(4));
-console.log(f(1)(2,3,4));
-console.log(f(5,6,7,8));
+console.log(f(1,2));
+// console.log(f(1,2)(3,4));
+// console.log(f(1)(2)(3)(4));
+// console.log(f(1)(2,3,4));
+// console.log(f(5,6,7,8));
+console.log(f(3,4));
